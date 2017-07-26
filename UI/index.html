@@ -49,15 +49,15 @@
 
 				var botOptions = {};
 				botOptions.logLevel = 'debug';
-				botOptions.koreAPIUrl = "https://bots.kore.ai/api/";
+				botOptions.koreAPIUrl = "https://qa1-bots.kore.ai/api/";
 				//botOptions.bearer = "bearer xyz-------------------";
 				botOptions.speechSocketUrl = 'wss://speech.kore.ai/stream/kore/decode';
 				botOptions.userIdentity = 'userIdentity';// Provide users email id here
 				botOptions.recorderWorkerPath = '../libs/recorderWorker.js';
 				botOptions.assertionFn = assertion;
 				botOptions.koreAnonymousFn = koreAnonymousFn;
-				botOptions.clientId   = "your clientId"; // secure client-id
-				botOptions.botInfo = {name:"your bot name","_id":"bot_id"}; // bot name is case sensitive
+				botOptions.clientId   = "cs-1fdfdc46-665e-5fd0-824f-2ce4da4abf78"; // secure client-id
+				botOptions.botInfo = {name:"Hcare","_id":"st-7aa299bc-ddd9-5caa-830c-2e94b8c92941"}; // bot name is case sensitive
 				
 				var chatConfig={
 					botOptions:botOptions,
